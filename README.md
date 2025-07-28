@@ -19,4 +19,4 @@ This repository contains my hands-on journey of learning web development — sta
 
 ---
 
-## 📁 Folder Structure
+
