@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>My Portfolio</title>
+  <style>
+  body{
+   text-align: center;
+  }
+ div{
+  display: inline-block;
+  text-align: center;
+ }
+    </style>
+</head>
+<body>
+  <h1>
+    My Portfolio
+  </h1>
+ <img src="https://www.w3schools.com/w3images/avatar2.png" width="150">
+  <h2>M.A.Aiysha</h2>
+  <p>Aspiring Front-end Developer</p>
+  <div>My Skills
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </div>
+  <h5>Contact</h5>
+  <p><b>Email:</b>aliaishmanhi@gmail.com</p>
+  
+  
+</body>
+</html>
