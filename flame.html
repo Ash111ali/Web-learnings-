@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Candle Animation</title>
+  <style>
+    body {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      height: 100vh;
+    }
+
+    .candle {
+      width: 40px;
+      height: 200px;
+      background: white;
+      border-radius: 5px;
+      position: relative;
+      
+    }
+
+    .flame {
+      width: 20px;
+      height: 30px;
+      background: orange;
+      border-radius: 50% 50% 50% 50%;
+      position: absolute;
+      top: -35px;
+      left: 10px;
+      animation: flicker 0.1s infinite;
+      box-shadow: 0 0 15px orange;
+    }
+
+    @keyframes flicker {
+      0%   { transform: scale(1) translateY(0); opacity: 10; }
+      50%  { transform: scale(1.1) translateY(-2px); opacity: 0.9; }
+      100% { transform: scale(1) translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="candle">
+    <div class="flame"></div>
+  </div>
+</body>
+</html>
